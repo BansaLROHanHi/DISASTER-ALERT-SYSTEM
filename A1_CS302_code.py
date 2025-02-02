@@ -2,9 +2,9 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 users = {
-    "user1": {"location": "City A", "email": "b22111@students.iitmandi.ac.in"},
-    "user2": {"location": "City B", "email": "user2@example.com"},
-    "user3": {"location": "City A", "email": "b22134@students.iitmandi.ac.in"}
+    "user1": {"location": "Sunder Nagar", "email": "b22111@students.iitmandi.ac.in"},
+    "user2": {"location": "Mandi", "email": "user2@example.com"},
+    "user3": {"location": "Kullu", "email": "b22134@students.iitmandi.ac.in"}
 }
 
 def validate_location(location):
