@@ -14,8 +14,8 @@ def validate_location(location):
 
 def send_email(email, subject, body):
     """Sends an email alert to the specified recipient."""
-    sender_email = "xxxxxxxxxxv@gmail.com"  # Replace with your Gmail address
-    app_password = "xxxx xxxx xxxx xxxx"  # Replace with your actual app password
+    sender_email = "sample@gmail.com"  # Replace with your Gmail address
+    app_password = "sample password [16 letters]"  # Replace with your actual app password
 
     try:
         msg = MIMEText(body)
